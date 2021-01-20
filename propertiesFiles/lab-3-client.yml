@@ -38,6 +38,8 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
-  profiles: noun
+  config:
+    activate:
+      on-profile: noun
 words: boat,book,vote,seat,backpack,partition,groundhog
   
